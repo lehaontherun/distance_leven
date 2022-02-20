@@ -8,7 +8,7 @@
 #define unicode unicode
 #define leven ulevenshtein
 #define nleven unlevenshtein
-#include "levenshtein.c"
+#include "leven.c"
 #undef unicode
 #undef leven
 #undef nleven
@@ -16,7 +16,7 @@
 #define unicode byte
 #define leven ulevenshtein
 #define nleven unlevenshtein
-#include "levenshtein.c"
+#include "leven.c"
 #undef unicode
 #undef leven
 #undef nleven
@@ -25,7 +25,7 @@
 #define unicode array
 #define leven ulevenshtein
 #define nleven unlevenshtein
-#include "levenshtein.c"
+#include "leven.c"
 #undef unicode
 #undef leven
 #undef nleven
