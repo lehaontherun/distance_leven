@@ -122,7 +122,7 @@ nleven(unicode *flow1, unicode *flow2, Py_size_t len1, Py_size_t len2, short fun
 	
 	if ((column = (Py_size_t *)malloc((len2 + 1) * sizeof(Py_size_t))) == NULL)
 		return -1;
-	if ((length = (Py_size_t *)malloc((len2 + 1) * sizeof(Py_size_t))) == NULL)
+	if ((length = (Py_size_t *)malloc((len2 + 1) * sizeof(Py_size_t))) == NULL){
 		free(column);
 		return -1;
 	}
